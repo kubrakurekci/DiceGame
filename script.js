@@ -5,8 +5,8 @@ const img1 = document.querySelector(".img1");
 const img2 = document.querySelector(".img2");
 const h1 = document.querySelector("h1");
 
-img1.setAttribute("src", "/images/dice" + randomNumber1 + ".png");
-img2.setAttribute("src" , "/images/dice" + randomNumber2 + ".png");
+img1.setAttribute("src", "images/dice" + randomNumber1 + ".png");
+img2.setAttribute("src" , "images/dice" + randomNumber2 + ".png");
 h1.classList.remove("right-align","left-align","center-align");
 
 if (randomNumber1 > randomNumber2) {
